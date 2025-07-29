@@ -34,10 +34,7 @@ sistema_productividad/ ├── inicializador/ │ ├── config.json │ �
 - **Empleados**:  
   
 
-\[
-\text{Efectividad} = \frac{(\#Completadas \times 1) + (\#En\ Progreso \times 0.5)}{\text{Total de tareas}} \times 100
-\]
-
+Efectividad = ((#Completadas × 1) + (#En Progreso × 0.5)) / (Total de tareas) × 100
 
 
 - **Departamentos**:  
@@ -80,7 +77,9 @@ Los valores de host, usuario, contraseña y puerto se almacenan en config.json. 
   "port": 3306
 }
 
+
 ## Notas importantes
+
 
 - Al eliminar un empleado, sus tareas se eliminan automáticamente.
 - Al eliminar un departamento, se eliminan sus empleados y las tareas asociadas.
